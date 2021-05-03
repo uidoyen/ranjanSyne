@@ -1,0 +1,141 @@
+@import "iconmoonVariables";
+@font-face {
+    font-family: '#{$icomoon-font-family}';
+    src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?n4zpqp');
+    src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?n4zpqp#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?n4zpqp') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?n4zpqp') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?n4zpqp##{$icomoon-font-family}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: '#{$icomoon-font-family}' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-accounting {
+    &:before {
+        content: $icon-accounting;
+    }
+}
+
+.icon-bank {
+    &:before {
+        content: $icon-bank;
+    }
+}
+
+.icon-bell {
+    &:before {
+        content: $icon-bell;
+    }
+}
+
+.icon-chat {
+    &:before {
+        content: $icon-chat;
+    }
+}
+
+.icon-cloud {
+    &:before {
+        content: $icon-cloud;
+    }
+}
+
+.icon-dashboard {
+    &:before {
+        content: $icon-dashboard;
+    }
+}
+
+.icon-down-arrow {
+    &:before {
+        content: $icon-down-arrow;
+    }
+}
+
+.icon-filter {
+    &:before {
+        content: $icon-filter;
+    }
+}
+
+.icon-grid-3x3 {
+    &:before {
+        content: $icon-grid-3x3;
+    }
+}
+
+.icon-left-arrow {
+    &:before {
+        content: $icon-left-arrow;
+    }
+}
+
+.icon-payment {
+    &:before {
+        content: $icon-payment;
+    }
+}
+
+.icon-payroll {
+    &:before {
+        content: $icon-payroll;
+    }
+}
+
+.icon-plus {
+    &:before {
+        content: $icon-plus;
+    }
+}
+
+.icon-purchase {
+    &:before {
+        content: $icon-purchase;
+    }
+}
+
+.icon-report {
+    &:before {
+        content: $icon-report;
+    }
+}
+
+.icon-sales {
+    &:before {
+        content: $icon-sales;
+    }
+}
+
+.icon-search {
+    &:before {
+        content: $icon-search;
+    }
+}
+
+.icon-tax-filling {
+    &:before {
+        content: $icon-tax-filling;
+    }
+}
+
+.icon-three-dots-vertical {
+    &:before {
+        content: $icon-three-dots-vertical;
+    }
+}

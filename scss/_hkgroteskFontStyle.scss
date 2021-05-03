@@ -1,0 +1,56 @@
+@import "variables";
+@font-face {
+    font-family: '#{$gkgrotesk-font-family-bold}';
+    src: url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-bold}.eot');
+    src: url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-bold}.eot?#iefix') format('embedded-opentype'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-bold}.otf?') format('opentype'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-bold}.svg') format('svg'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-bold}.ttf') format('truetype'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-bold}.woff') format('woff'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-bold}.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: '#{$gkgrotesk-font-family-light}';
+    src: url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-light}.eot');
+    src: url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-light}.eot?#iefix') format('embedded-opentype'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-light}.otf?') format('opentype'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-light}.svg') format('svg'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-light}.ttf') format('truetype'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-light}.woff') format('woff'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-light}.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: '#{$gkgrotesk-font-family-medium}';
+    src: url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-medium}.eot');
+    src: url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-medium}.eot?#iefix') format('embedded-opentype'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-medium}.otf?') format('opentype'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-medium}.svg') format('svg'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-medium}.ttf') format('truetype'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-medium}.woff') format('woff'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-medium}.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: '#{$gkgrotesk-font-family-regular}';
+    src: url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-regular}.eot');
+    src: url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-regular}.eot?#iefix') format('embedded-opentype'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-regular}.otf?') format('opentype'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-regular}.svg') format('svg'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-regular}.ttf') format('truetype'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-regular}.woff') format('woff'),
+    url('#{$gkgrotesk-font-path}/#{$gkgrotesk-font-family-regular}.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}

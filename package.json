@@ -1,0 +1,54 @@
+{
+    "title": "Syne Admin",
+    "name": "syne-admin",
+    "version": "",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "description": "Syne Admin Theme.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template",
+        "admin",
+        "app"
+    ],
+    "homepage": "",
+    "bugs": {
+        "url": "https://github.com/StartBootstrap/startbootstrap-sb-admin-2/issues",
+        "email": "ranjansingh009@gmail.com"
+    },
+    "author": "Start Bootstrap",
+    "contributors": [
+        "Ranjan Kumar Singh"
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.15.1",
+        "@ttskch/select2-bootstrap4-theme": "^1.5.2",
+        "bootstrap": "4.5.3",
+        "bootstrap-datepicker": "^1.9.0",
+        "jquery": "3.5.1",
+        "jquery.easing": "^1.4.1",
+        "select2": "^4.1.0-rc.0"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.13",
+        "del": "6.0.0",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "7.0.1",
+        "gulp-clean-css": "4.3.0",
+        "gulp-header": "2.0.9",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "2.0.0",
+        "gulp-sass": "4.1.0",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "2.0.0"
+    }
+}
