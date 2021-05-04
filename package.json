@@ -2,7 +2,7 @@
     "title": "Syne Admin",
     "name": "syne-admin",
     "scripts": {
-        "start": "gulp watch"
+        "start": "node_modules/.bin/gulp watch"
     },
     "description": "Syne Admin Theme.",
     "keywords": [
